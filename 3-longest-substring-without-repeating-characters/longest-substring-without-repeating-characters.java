@@ -1,6 +1,6 @@
 class Solution {
     public int lengthOfLongestSubstring(String s) {
-       int tamanhoTexto = s.length();
+        int tamanhoTexto = s.length();
         int indiceEsquerdo = 0, indiceDireito = 0;
         int[] ultimaPosicaoCaractere = new int[128]; 
         Arrays.fill(ultimaPosicaoCaractere, -1); 
